@@ -21,3 +21,8 @@ Static Method
 Inheritance
     > Simple Inheritance
     > Child can access attributes and method of parents. but parents cannot access the attributes and method of child.
+    > Constructor overloading and Method overloading
+    > Super keyword (it can be used only in the child class. Not outside of the child class. It also cannot attributes or variables.)
+
+Types of inheritance 
+    > Single or basic inheritance
