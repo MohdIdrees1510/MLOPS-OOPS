@@ -16,3 +16,8 @@ self
 You can create an attribute outside the class as well
 Encapsulation
 Getter and Setter
+Static Method
+
+Inheritance
+    > Simple Inheritance
+    > Child can access attributes and method of parents. but parents cannot access the attributes and method of child.
