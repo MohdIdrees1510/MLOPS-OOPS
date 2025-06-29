@@ -8,3 +8,11 @@ Advantages of python
     > code reusability
     > debugging
     > easy to colab
+
+End to End Chatbook project
+Function vs method
+dunder method/magic method
+self
+You can create an attribute outside the class as well
+Encapsulation
+Getter and Setter

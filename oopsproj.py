@@ -1,9 +1,31 @@
 class chatbook():
+
+    __user_id = 0
+
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
+        self.__name = "default user"
         self.username = ''
         self.password = ''
         self.loggedin = False
-        self.menu()
+        #self.menu()
+
+    @staticmethod
+    def get_id(): # static method does not require us to type 'self' inside the ().
+        return chatbook.__user_id
+
+    @staticmethod
+    def set_id(value):
+        chatbook.__user_id = value
+
+    def get_name(self):
+        return self.__name
+
+    def set_name(self, value):
+        self.__name = value
+
+
 
     def menu(self):
         user_input = input("""Welcome to chatbook!! How would you like to proceed?
@@ -64,5 +86,7 @@ class chatbook():
             print("Your message has been sent")
         else:
             print("you need to sign in before sending the message.") 
+        print("\n")
+        self.menu()
 
 obj = chatbook()
